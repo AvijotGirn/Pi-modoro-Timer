@@ -15,4 +15,4 @@ A Pomodoro timer program implemented using a Raspberry Pi Pico &amp; Micropython
 - Thonny IDE (with Raspberry Pi device setup)
 
 # Circuit Diagram
-![LCD Module Connection](/relative/path/to/img.jpg?raw=true "Optional Title")
+![LCD Module Connection](/Images/Lcd1602.png?raw=true "LCD Connection")
