@@ -41,8 +41,8 @@ class App:
         
     def select_time(self, selection):
         if selection == "1":
-            self.work_time = 0.1 * 60
-            self.break_time = 0.1 * 60
+            self.work_time = 1 * 60
+            self.break_time = 1 * 60
         elif selection == "2":
             self.work_time = 35 * 60
             self.break_time = 10 * 60
@@ -57,6 +57,18 @@ class App:
         for i in range(5,0,-1):
             self.lcd.clear()
             self.lcd.message(f"Beginning in...\n{i} ...")
+            utime.sleep(1)
+        self.lcd.clear()
+        
+        
+    def cntdwn(self, wb = "Next Session"):
+        if wb == 'w':
+            wb = "Work Starts"
+        elif wb == 'b':
+            wb = "Break Time"
+        for i in range(5,0,-1):
+            self.lcd.clear()
+            self.lcd.message(f"{wb} in...\n{i} ...")
             utime.sleep(1)
         self.lcd.clear()
             
@@ -101,7 +113,7 @@ class App:
     
     def end(self):
         self.lcd.clear()
-        lcd.message("Session Complete!\nGoodbye ... ...")
+        self.lcd.message("Session Done!\nRestarting")
         utime.sleep(4)
         self.lcd.clear()
             
