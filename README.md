@@ -42,3 +42,10 @@ The Following are schematics for the MISC, OK, and STOP push buttons (respective
 **Note:** It is not necessary to have 2 breadboards or as many wires, mine was done this way for visualization purposes and ease of access to the buttons.
 ![c1](/Images/circuit1.png?raw=true "My Circuit Setup")
 ![c2](/Images/circuit2.png?raw=true "My Circuit Setup Im 2")
+
+# Running 
+1) Setup Circuit
+2) Load App.py and lcd1602.py onto the Pico
+  - On Thonny, after connecting Pico: File >> Save As >> Raspberry Pi Pico >> App.py
+  - Repeat for lcd1602.py
+3) Either run main.py from Thonny IDE or Upload main.py to the Pico as well (this way no computer is needed to run the program, just provide the pico power, and it will automatically run main.py when plugged in)
