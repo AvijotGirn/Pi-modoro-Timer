@@ -49,3 +49,13 @@ The Following are schematics for the MISC, OK, and STOP push buttons (respective
   - On Thonny, after connecting Pico: File >> Save As >> Raspberry Pi Pico >> App.py
   - Repeat for lcd1602.py
 3) Either run main.py from Thonny IDE or Upload main.py to the Pico as well (this way no computer is needed to run the program, just provide the pico power, and it will automatically run main.py when plugged in)
+
+# Final Note (Demo)
+I was unable to record a stable video or get many good quality images due to the poor quality LCD Display, however the following are the few readable images I managed to get. 
+![1](/Images/1.jpg?raw=true "")
+![2](/Images/2.jpg?raw=true "")
+![3](/Images/3.jpg?raw=true "")
+![4](/Images/4.jpg?raw=true "")
+![5](/Images/5.jpg?raw=true "")
+![6](/Images/6.jpg?raw=true "")
+![7](/Images/7.jpg?raw=true "")
